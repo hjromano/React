@@ -1,21 +1,121 @@
 {
-    "projects": [],
-    "categories": [
-        {
-            "id": 1,
-            "name": "Infra"
-        },
-        {
-            "id": 2,
-            "name": "Desenvolvimento"
-        },
-        {
-            "id": 3,
-            "name": "Design"
-        },
-        {
-            "id": 4,
-            "name": "Planejamento"
-        }
-    ]
+  "projects": [
+    {
+      "id": "dc2f",
+      "name": "projeto teste",
+      "category": {
+        "id": "1",
+        "name": "Infra"
+      },
+      "budget": "50000",
+      "cost": 0,
+      "services": []
+    },
+    {
+      "id": "cddb",
+      "name": "projeto teste",
+      "category": {
+        "id": "1",
+        "name": "Infra"
+      },
+      "budget": "50000",
+      "cost": 0,
+      "services": []
+    },
+    {
+      "id": "3409",
+      "name": "projeto teste",
+      "category": {
+        "id": "1",
+        "name": "Infra"
+      },
+      "budget": "50000",
+      "cost": 0,
+      "services": []
+    },
+    {
+      "id": "8051",
+      "name": "projeto teste",
+      "category": {
+        "id": "1",
+        "name": "Infra"
+      },
+      "budget": "50000",
+      "cost": 0,
+      "services": []
+    },
+    {
+      "id": "b058",
+      "name": "projeto teste",
+      "category": {
+        "id": "1",
+        "name": "Infra"
+      },
+      "budget": "50000",
+      "cost": 0,
+      "services": []
+    },
+    {
+      "id": "34ec",
+      "name": "projeto teste",
+      "category": {
+        "id": "1",
+        "name": "Infra"
+      },
+      "budget": "50000",
+      "cost": 0,
+      "services": []
+    },
+    {
+      "id": "26df",
+      "name": "projeto teste",
+      "category": {
+        "id": "1",
+        "name": "Infra"
+      },
+      "budget": "50000",
+      "cost": 0,
+      "services": []
+    },
+    {
+      "id": "6519",
+      "name": "projeto teste",
+      "budget": "89999",
+      "category": {
+        "id": "2",
+        "name": "Desenvolvimento"
+      },
+      "cost": 0,
+      "services": []
+    },
+    {
+      "id": "3969",
+      "name": "projeto teste",
+      "budget": "89999",
+      "category": {
+        "id": "2",
+        "name": "Desenvolvimento"
+      },
+      "cost": 0,
+      "services": []
+    }
+  ],
+  "categories": [
+    {
+      "id": "1",
+      "name": "Infra"
+    },
+    {
+      "id": "2",
+      "name": "Desenvolvimento"
+    },
+    {
+      "id": "3",
+      "name": "Design"
+    },
+    {
+      "id": "4",
+      "name": "Planejamento"
+    }
+  ]
 }
