@@ -164,6 +164,17 @@
       },
       "cost": 0,
       "services": []
+    },
+    {
+      "id": "6719",
+      "name": "higor",
+      "budget": "222",
+      "category": {
+        "id": "3",
+        "name": "Design"
+      },
+      "cost": 0,
+      "services": []
     }
   ],
   "categories": [
