@@ -1,60 +1,22 @@
 {
   "projects": [
     {
-      "id": "03fe",
-      "name": "higor 36",
-      "budget": "72000",
+      "id": "4aeb",
+      "name": "da certo ",
+      "budget": "9000",
       "category": {
         "id": "1",
         "name": "Infra"
       },
-      "cost": null,
+      "cost": 500,
       "services": [
         {
-          "id": "7ecaaea1-c2c8-4539-9cd9-5b6c08d11df0"
-        },
-        {
-          "id": "f0fb8bed-db7e-49ca-b4cf-917d126dcacf"
-        },
-        {
-          "id": "d3c054f1-c89d-4db8-9bbf-7eddec42093d"
-        },
-        {
-          "id": "42676075-aa0d-48d0-9a75-f0d6831a6fb8"
-        },
-        {
-          "id": "fb91f9cb-e106-4b1b-ba8b-3dbe85b750cc"
-        },
-        {
-          "id": "43a1fdc3-ff92-4206-a5f9-0f01404d5cc8"
-        },
-        {
-          "id": "62e77c26-6567-4570-8a78-0c3ee5aa2d5e"
-        },
-        {
-          "id": "12274ba1-9e04-4350-87b2-489720b3a0cc"
-        },
-        {
-          "id": "a5eb9d0c-6726-4977-9194-3329b3e0195d"
-        },
-        {
-          "id": "517043c3-a3c1-480f-a81a-a91272784684"
-        },
-        {
-          "id": "fcc85acf-45bd-4daa-b2ab-b73f7b3fbc22"
+          "name": "atualização",
+          "cost": "500",
+          "description": "novo de novo",
+          "id": "9dd05b4c-8679-4b77-a381-bc9e377736bf"
         }
       ]
-    },
-    {
-      "id": "bb1c",
-      "name": "higuito",
-      "budget": "77777",
-      "category": {
-        "id": "2",
-        "name": "Desenvolvimento"
-      },
-      "cost": null,
-      "services": []
     }
   ],
   "categories": [

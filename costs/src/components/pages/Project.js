@@ -71,7 +71,7 @@ function Project() {
 
         const lastServiceCost = lastService.cost
         // Ajuste Mateus: Isolando o custo atual com parseFloat
-        const newCost = parseFloat(project.cost || 0) + parseFloat(lastServiceCost)
+        const newCost = parseFloat(project.cost) + parseFloat(lastServiceCost)
 
         // maximum value validation
         if (newCost > parseFloat(project.budget)) {

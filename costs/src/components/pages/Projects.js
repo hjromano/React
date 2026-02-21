@@ -1,6 +1,5 @@
-import {useLocation} from 'react-router-dom'
-
-import {useState, useEffect} from 'react'
+import { useLocation } from 'react-router-dom'
+import { useState, useEffect } from 'react'
 
 import styles from './Projects.module.css'
 
@@ -22,39 +21,37 @@ function Projects() {
     }
 
     useEffect(() => {
-
         setTimeout(() => {
             fetch('http://localhost:5000/projects', {
-            method: 'GET',
-            headers: {
-                'Content-Type': 'application/json',
-            },
-        })
-            .then((resp) => resp.json())
-            .then((data) => {
-                console.log(data)
-                setProjects(data)
-                setRemoveLoading(true)
+                method: 'GET',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
             })
-            .catch((err) => {
-                console.log(err)
-            })
-        },300)
-
+                .then((resp) => resp.json())
+                .then((data) => {
+                    console.log(data)
+                    setProjects(data)
+                    setRemoveLoading(true)
+                })
+                .catch((err) => {
+                    console.log(err)
+                })
+        }, 300)
     }, [])
 
     function removeProject(id) {
         fetch(`http://localhost:5000/projects/${id}`, {
-            method:'DELETE',
+            method: 'DELETE',
             headers: {
                 'Content-Type': 'application/json'
             },
         }).then((resp) => resp.json())
-        .then(() => {
-            setProjects(projects.filter((project) => project.id !== id))
-            setProjectMessage('Projeto removido com sucesso!')
-        })
-        .catch(err => console.log(err))
+            .then(() => {
+                setProjects(projects.filter((project) => project.id !== id))
+                setProjectMessage('Projeto removido com sucesso!')
+            })
+            .catch(err => console.log(err))
     }
 
     return (
@@ -68,11 +65,23 @@ function Projects() {
             <Container customClass="start">
                 {projects.length > 0 &&
                     projects.map((project) => (
-                        <ProjectCard id={project.id} name={project.name} budget={project.budget} category={project?.category?.name} key={project.id} handleRemove={removeProject}/>
+                        <ProjectCard 
+                            id={project.id} 
+                            name={project.name} 
+                            budget={project.budget} 
+                            /* 
+                                CORREÇÃO AQUI: 
+                                Passamos o objeto 'project.category' inteiro (sem o .name no final).
+                                Isso permite que o ProjectCard acesse .name e .toLowerCase() corretamente.
+                            */
+                            category={project.category} 
+                            key={project.id} 
+                            handleRemove={removeProject} 
+                        />
                     ))}
                 {!removeLoading && <Loading />}
                 {removeLoading && projects.length === 0 && (
-                    <p>Não há projetos cadaastrados!</p>
+                    <p>Não há projetos cadastrados!</p>
                 )}
             </Container>
         </div>
