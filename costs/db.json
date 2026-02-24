@@ -8,21 +8,8 @@
         "id": "1",
         "name": "Infra"
       },
-      "cost": 1300,
-      "services": [
-        {
-          "name": "atualização",
-          "cost": "500",
-          "description": "novo de novo",
-          "id": "9dd05b4c-8679-4b77-a381-bc9e377736bf"
-        },
-        {
-          "name": "teste",
-          "cost": "800",
-          "description": "teste",
-          "id": "89a000d0-082d-4e50-9656-652034ea3999"
-        }
-      ]
+      "cost": 0,
+      "services": []
     },
     {
       "id": "c85e",
@@ -32,21 +19,8 @@
         "id": "2",
         "name": "Desenvolvimento"
       },
-      "cost": 1150,
-      "services": [
-        {
-          "name": "modelagem",
-          "cost": "600",
-          "description": "faz isso aqui",
-          "id": "e274c59a-c661-4eef-877e-299a31afb07c"
-        },
-        {
-          "name": "Contratar PHP",
-          "cost": "550",
-          "description": "Vai criar função envio de e-mails",
-          "id": "e9f18d0a-23d4-4a17-9720-4fcfbcd4d347"
-        }
-      ]
+      "cost": 0,
+      "services": []
     }
   ],
   "categories": [
