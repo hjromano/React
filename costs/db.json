@@ -21,6 +21,24 @@
       },
       "cost": 0,
       "services": []
+    },
+    {
+      "id": "c7c7",
+      "name": "projeto style",
+      "budget": "7000",
+      "category": {
+        "id": "3",
+        "name": "Design"
+      },
+      "cost": 500,
+      "services": [
+        {
+          "name": "estilos",
+          "cost": "500",
+          "description": "novas coisas",
+          "id": "bec42cae-9bb4-4531-9058-bdb17e6c26bc"
+        }
+      ]
     }
   ],
   "categories": [
